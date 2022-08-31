@@ -1,0 +1,8 @@
+Host local1
+    HostName localhost
+    User ubuntu
+
+Host local2
+    HostName localhost
+    User root
+    IdentityFile ~\.ssh\cert.key
