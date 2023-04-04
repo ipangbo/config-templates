@@ -1,0 +1,23 @@
+{
+	"vue3.2 template": {
+	  "prefix": "vue",
+	  "description": "vue3.2 template",
+	  "body": [
+		"${BLOCK_COMMENT_START}",
+		" * ${1:new page}",
+		" * @author: ${2:Bo Pang}",
+		" * @since: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE}",
+		" * ${TM_FILENAME}",
+		"${BLOCK_COMMENT_END}",
+		"<template>",
+		"  <div class=\"container\"></div>",
+		"</template>",
+		"",
+		"<script setup lang=\"ts\"></script>",
+		"",
+		"<style scoped></style>",
+		""
+	  ]
+	}
+  }
+  
